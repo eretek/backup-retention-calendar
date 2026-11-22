@@ -1,0 +1,15 @@
+{
+  "name": "backup-retention-calendar",
+  "version": "1.1.3",
+  "private": true,
+  "description": "From daily, weekly, monthly and yearly (GFS) retention settings, list which restore points exist on a given date, how many there are and the oldest point.",
+  "license": "SEE LICENSE IN LICENSE",
+  "homepage": "https://sistem.eretek.com/en/tools/backup-retention-calendar",
+  "scripts": {
+    "start": "node scripts/serve.js",
+    "test": "node test/run.js"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
